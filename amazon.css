@@ -1,0 +1,335 @@
+/* reset */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ”;
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+/*nav bar modifications*/
+/*elements*/
+
+/*ids*/
+#navbar1 {
+  background-color: #2f292b;
+  color: #fdfdfd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70px;
+}
+
+#navbar1 > div > button {
+  color: #fdfdfd;
+  background-color: #2f292b;
+  border: none;
+}
+#all {
+  background-color: #f3f3f3 !important;
+  color: #000000 !important;
+  width: 30px;
+}
+#searchIcon {
+  background-color: #f1c32c !important;
+}
+#logo img {
+  max-width: 100px;
+}
+#locationLogo img {
+  max-width: 25px;
+}
+#flagImg img {
+  max-width: 25px;
+}
+#searchBox {
+  display: inline-flex;
+  height: 40px;
+}
+#all,
+#inputTxt,
+#searchIcon {
+  max-height: 40px;
+}
+#all {
+  border-radius: 5px 0px 0px 5px;
+}
+#searchIcon {
+  border-radius: 0px 5px 5px 0px;
+}
+#inputTxt {
+  width: 500px;
+}
+#cart {
+  display: flex;
+}
+#incart {
+  position: relative;
+  right: 17px;
+}
+/*navbar 2 modifications*/
+#nav2 {
+  background-color: #131921;
+  color: #f3f3f3;
+}
+#textDivs {
+  background-color: #131921;
+  color: #f3f3f3;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#stackImage {
+  display: flex;
+  align-items: center;
+}
+
+/* bodycontent manipulaion */
+#banner {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  top: -300px;
+  background-image: linear-gradient(#595977, #eaeded);
+}
+#transition {
+  height: 110px;
+  position: relative;
+  top: -260px;
+  background-blend-mode: difference;
+  background-image: linear-gradient(#081442, #666681);
+}
+#bannerPhoto {
+  height: 550px;
+  position: relative;
+  right: 100px;
+}
+body {
+  background-color: #eaeded;
+}
+
+#salesItems > div > span > img {
+  max-width: 250px;
+  height: 300px;
+}
+.salesItems {
+  display: flex;
+  justify-content: space-around;
+  position:relative;
+  top:-130px;
+}
+.salesItems div {
+  height: 380px;
+  width: 300px;
+  margin:10px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+#imageDivs {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+#smallerSlide {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#signIn
+{
+  margin:10px;
+  width:220px;
+  background-color: #f1df3f;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width:250px;
+}
+.bodyText
+{
+  font-size: 23px;
+  font-weight:bold;
+  position: relative;
+}
+a
+{
+  font-size: small;
+  padding:10px;
+  color:#72706f;
+  position: relative;
+  left: -100px;
+}
+.topTxt
+{
+  position: relative;
+  left:-20px;
+  padding:10px;
+}
